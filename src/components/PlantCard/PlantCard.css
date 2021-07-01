@@ -1,0 +1,57 @@
+.plant-card {
+    width: 200px;
+    height: 350px;
+    background-color: #92B090;
+    position: relative;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    transition: all 200ms ease-out;
+}
+
+.plant-card>img {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 200px;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
+}
+
+.plant-card>div>h3 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.plant-card-info-1, .plant-card-info-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plant-card-info-1>div:nth-child(1), .plant-card-info-2>div:nth-child(1) {
+    font-weight: bold;
+}
+
+.plant-card:hover {
+    transform: scale(1.25);
+    transition: all 200ms linear;
+    background-color: #5F835D;
+}
+
+.plant-card:hover img {
+    top: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.plant-card:hover h3 {
+    color: #FFFFFF;
+}
+
+.plant-card-info {
+    width: 80%;
+}

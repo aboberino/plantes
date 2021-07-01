@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    margin: 25px 25px 0 25px;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-left>a {
+    border:none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    width: 80px;
+}
+
+.hamburger {
+    cursor: pointer;
+}
