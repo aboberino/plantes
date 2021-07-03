@@ -22,6 +22,9 @@ function App() {
         <div className="circle right"></div>
         <div className="circle left"></div>
         <Header />
+        <div className="title">
+          Welcome to my garden, the happiness therapy
+        </div>
         <div className="content">
           {plants.map((p, i) => <PlantCard plant={p} key={i}/>)}
         </div>
