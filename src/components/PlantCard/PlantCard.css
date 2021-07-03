@@ -37,6 +37,10 @@
     font-weight: bold;
 }
 
+.plant-card-info-1, .plant-card-info-2 {
+    font-size: 12px;
+}
+
 .plant-card:hover {
     transform: scale(1.25);
     transition: all 200ms linear;
